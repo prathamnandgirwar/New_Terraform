@@ -14,4 +14,3 @@ module "instance" {
     key_pair = "key-pair"
     vpc_id = module.new_vpc.vpc_id
 }
-
