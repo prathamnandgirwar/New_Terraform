@@ -8,7 +8,7 @@ module "new_vpc" {
 
 module "instance" {
     source = "./modules/ec2"
-    image_id = "ami-091138d0f0d41ff90"
+    image_id = "ami-07a00cf47dbbc844c"
     instance_type = "t3.micro"
     subnet_id = module.new_vpc.pub_subnet_id
     vpc_id = module.new_vpc.vpc_id
