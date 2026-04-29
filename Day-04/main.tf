@@ -11,6 +11,5 @@ module "instance" {
     image_id = "ami-091138d0f0d41ff90"
     instance_type = "t3.micro"
     subnet_id = module.new_vpc.pub_subnet_id
-    key_pair = "keyNew"
     vpc_id = module.new_vpc.vpc_id
 }

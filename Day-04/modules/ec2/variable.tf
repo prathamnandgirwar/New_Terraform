@@ -8,8 +8,9 @@ variable "instance_type" {
 variable "subnet_id" {
   
 }
-variable "kay_pair" {
- 
+variable "key_pair" {
+ default = "key-pair"
 }
 variable "vpc_id" {
+    
 }
