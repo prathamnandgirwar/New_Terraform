@@ -18,7 +18,17 @@ terraform {
   backend "s3" {
     bucket         = "your-terraform-state-bucket"  # Replace with your bucket name
     key            = "terraform.tfstate"
-    region         = "us-east-1"  # Replace with your AWS region
+    region         = "ap-south-1"  # Replace with your AWS region
     
   }
 }
+
+
+
+
+
+
+
+
+
+# terraform apply -var-file="dev.tfvars"
